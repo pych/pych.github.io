@@ -285,15 +285,15 @@ a:focus {
     width: 100%;
 }
 
-#how a {
+.how > a{
     color: #fff;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
 
-#how a:hover,
-a:focus {
+.how > a:hover,
+.how > a:focus {
     text-decoration: none;
     color: #d40000;
 }
@@ -338,9 +338,10 @@ a:focus {
 .answer {
     font-size: 2.6em;
 }
+
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Titillium Web", sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -348,17 +349,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #28c3ab;
-    color: #28c3ab;
-    background-color: transparent;
+    border: 1px solid #fff;
+    outline: 0;
+    color: #fff;
+    background-color: #d40000;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #28c3ab;
-    outline: 0;
-    color: #000;
-    background-color: #28c3ab;
+    border: 1px solid #fff;
+    color: #d40000;
+    background-color: #fff;
 }
 
 .btn-huge {
@@ -375,6 +376,27 @@ a:focus {
     height: 5px;
     margin: 0 auto;
     width: 33%;
+}
+
+footer {
+    background-color: #22aa22;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 85%;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+    color: #ccc;
+}
+
+.footer-text > a {
+    color: #ccc;
+}
+
+.footer-text > a:hover,
+.footer-text > a:active {
+    color: #fff;
 }
 
 @media(max-width:1199px) {
