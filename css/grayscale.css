@@ -181,6 +181,34 @@ a:focus {
     font-size: 18px;
 }
 
+.err {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.err-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.err-heading {
+    font-size: 300px;
+    color: #d40000;
+}
+
+.error-text {
+    font-size: 18px;
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
