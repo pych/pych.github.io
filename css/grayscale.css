@@ -416,15 +416,16 @@ footer {
     font-weight: 700;
     font-family: "Titillium Web", sans-serif;
     color: #ccc;
+    line-height: 1;
 }
 
 .footer-text > a {
-    color: #ccc;
+    color: #fff;
 }
 
 .footer-text > a:hover,
 .footer-text > a:active {
-    color: #fff;
+    color: #d40000;
 }
 
 @media(max-width:1199px) {
